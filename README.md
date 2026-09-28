@@ -109,8 +109,8 @@ options cros_charge_control probe_with_fwk_charge_control=1
 (Use the `cat` command to create the file, similar to the
 `wpa_supplicant.conf` file.)
 
-This will enable the option for setting the charge limit of the
-battery through the graphical interface.
+This will enable the kernel support for optionally setting the battery
+charge limit through the DE interface.
 
 #### Reboot into the new system
 
@@ -118,8 +118,8 @@ After rebooting into the system you should be able to log in as the
 user configured as part of the installation setup.
 
 If no DE was installed during the installation the interface will be
-the "console" interface. The font used here is tiny, but hopefully
-readable.
+the "console" interface. The font used in the console is tiny, but
+hopefully readable.
 
 In case of no DE installed, enable networking by running the command:
 
